@@ -65,6 +65,18 @@ public class GUI implements ActionListener {
 
         baflamButton = new JButton(new ImageIcon("C:\\Users\\LeahGuardino\\Desktop\\forehead.png"));
         baflamButton.setBackground(new Color(242,231,196));
+        //upgradeButton1.setBackground(new Color(242,231,196));
+        //upgradeButton2.setBackground(new Color(242,231,196));
+        //upgradeButton3.setBackground(new Color(242,231,196));
+        //upgradeButton4.setBackground(new Color(242,231,196));
+        //upgradeButton5.setBackground(new Color(242,231,196));
+        //upgradeButton6.setBackground(new Color(242,231,196));
+        //upgradeButton7.setBackground(new Color(242,231,196));
+        //upgradeButton8.setBackground(new Color(242,231,196));
+        //upgradeButton9.setBackground(new Color(242,231,196));
+        //upgradeButton10.setBackground(new Color(242,231,196));
+        //upgradeButton11.setBackground(new Color(242,231,196));
+
             //IMAGE PLEASE WORK BRO
 
 
