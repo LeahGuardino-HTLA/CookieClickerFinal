@@ -160,6 +160,7 @@ public class GUI implements ActionListener {
         upgradeButton10.addActionListener(e -> {
             baflams.buyUpgrade10();
         });
+        //BOO
         upgradeButton11.addActionListener(e -> {
             baflams.buyUpgrade11();
         });

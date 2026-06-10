@@ -87,6 +87,7 @@ public void click() {
             upgrade3Cost += baflamPerSecond;
         }
     }
+    //BOO
 
     public void buyUpgrade4() {
         if (baflamCounter >= upgrade4Cost) {
