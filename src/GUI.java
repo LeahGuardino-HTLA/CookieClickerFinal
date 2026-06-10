@@ -63,25 +63,36 @@ public class GUI implements ActionListener {
         cost10 = new JLabel("UPGRADE 10 COST: " + baflams.upgrade10Cost);
         cost11 = new JLabel("UPGRADE 11 COST: " + baflams.upgrade11Cost);
 
-        baflamButton = new JButton(new ImageIcon("C:\\Users\\LeahGuardino\\Desktop\\forehead.png"));
-        baflamButton.setBackground(new Color(242,231,196));
-        //upgradeButton1.setBackground(new Color(242,231,196));
-        //upgradeButton2.setBackground(new Color(242,231,196));
-        //upgradeButton3.setBackground(new Color(242,231,196));
-        //upgradeButton4.setBackground(new Color(242,231,196));
-        //upgradeButton5.setBackground(new Color(242,231,196));
-        //upgradeButton6.setBackground(new Color(242,231,196));
-        //upgradeButton7.setBackground(new Color(242,231,196));
-        //upgradeButton8.setBackground(new Color(242,231,196));
-        //upgradeButton9.setBackground(new Color(242,231,196));
-        //upgradeButton10.setBackground(new Color(242,231,196));
-        //upgradeButton11.setBackground(new Color(242,231,196));
 
-            //IMAGE PLEASE WORK BRO
+        baflamButton = new JButton(new ImageIcon("C:\\Users\\LeahGuardino\\OneDrive - HighTech LA\\Desktop\\farts.png"));
+        baflamButton.setBackground(Color.BLACK);
+
+        upgradeButton1 = new JButton(new ImageIcon("C:\\Users\\LeahGuardino\\OneDrive - HighTech LA\\Desktop\\forehead.png"));
+        upgradeButton2 = new JButton(new ImageIcon("C:\\Users\\LeahGuardino\\OneDrive - HighTech LA\\Desktop\\forehead.png"));
+        upgradeButton3 = new JButton(new ImageIcon("C:\\Users\\LeahGuardino\\OneDrive - HighTech LA\\Desktop\\forehead.png"));
+        upgradeButton4 = new JButton(new ImageIcon("C:\\Users\\LeahGuardino\\OneDrive - HighTech LA\\Desktop\\forehead.png"));
+        upgradeButton5 = new JButton(new ImageIcon("C:\\Users\\LeahGuardino\\OneDrive - HighTech LA\\Desktop\\forehead.png"));
+        upgradeButton6 = new JButton(new ImageIcon("C:\\Users\\LeahGuardino\\OneDrive - HighTech LA\\Desktop\\AH.jpg"));
+        upgradeButton7 = new JButton(new ImageIcon("C:\\Users\\LeahGuardino\\OneDrive - HighTech LA\\Desktop\\AH.jpg"));
+        upgradeButton8 = new JButton(new ImageIcon("C:\\Users\\LeahGuardino\\OneDrive - HighTech LA\\Desktop\\AH.jpg"));
+        upgradeButton9 = new JButton(new ImageIcon("C:\\Users\\LeahGuardino\\OneDrive - HighTech LA\\Desktop\\AH.jpg"));
+        upgradeButton10 = new JButton(new ImageIcon("C:\\Users\\LeahGuardino\\OneDrive - HighTech LA\\Desktop\\AH.jpg"));
+        upgradeButton11 = new JButton(new ImageIcon("C:\\Users\\LeahGuardino\\OneDrive - HighTech LA\\Desktop\\AH.jpg"));
 
 
+         /*
+        //ImageIcon laughing = new ImageIcon("C:\\Users\\LeahGuardino\\OneDrive - HighTech LA\\Desktop\\laughing.png");
+        //baflamButton = new JButton(laughing);
 
-        //it's actually farting out so I give up on the north, south, east, west, center thing
+        baflamButton.setBackground(new Color(0,0,0));
+
+        upgradeButton1 = new JButton(new ImageIcon("C:\\Users\\LeahGuardino\\OneDrive - HighTech LA\\Desktop\\bruh.png"));
+        baflamButton.setBackground(new Color(0,0,0));
+
+         */
+
+
+        //it's actually farting out so I give up on the north, south, east, west, center layout
 
 
         JPanel upgradesPanel = new JPanel();
@@ -89,19 +100,33 @@ public class GUI implements ActionListener {
         //upgradesPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
 
-        //baflamButton = new JButton(new ImageIcon("yo"));
-        upgradeButton1 = new JButton("PLUS 1");
-        upgradeButton2 = new JButton("LOCKED IN");
-        upgradeButton3 = new JButton("PLUS 5");
-        upgradeButton4 = new JButton("PLUS 20");
-        upgradeButton5 = new JButton("PLUS 50");
-        upgradeButton6 = new JButton("PLUS 80");
-        upgradeButton7 = new JButton("PLUS 120");
-        upgradeButton8 = new JButton("PLUS 200");
-        upgradeButton9 = new JButton("PLUS 250");
-        upgradeButton10 = new JButton("PLUS 300");
-        upgradeButton11 = new JButton("PLUS 500");
 
+        upgradeButton1.setBackground(Color.BLACK);
+        upgradeButton2.setBackground(Color.BLACK);
+        upgradeButton3.setBackground(Color.BLACK);
+        upgradeButton4.setBackground(Color.BLACK);
+        upgradeButton5.setBackground(Color.BLACK);
+        upgradeButton6.setBackground(Color.BLACK);
+        upgradeButton7.setBackground(Color.BLACK);
+        upgradeButton8.setBackground(Color.BLACK);
+        upgradeButton9.setBackground(Color.BLACK);
+        upgradeButton10.setBackground(Color.BLACK);
+        upgradeButton11.setBackground(Color.BLACK);
+
+        /*
+         got sick of it turning light blue when tapped so using this to stop it altogether
+        baflamButton.setFocusPainted(false);
+        baflamButton.setBorderPainted(false);
+        baflamButton.setContentAreaFilled(false);
+        baflamButton.setOpaque(true);
+        baflamButton.setForeground(Color.WHITE);
+
+        upgradeButton1.setFocusPainted(false);
+        upgradeButton1.setBorderPainted(false);
+        upgradeButton1.setContentAreaFilled(false);
+        upgradeButton1.setOpaque(true);
+        upgradeButton1.setForeground(Color.WHITE);
+         */
 
         baflamButton.addActionListener(this);
 
@@ -176,7 +201,7 @@ public class GUI implements ActionListener {
         panel.add(label); //each element needs to be added to our panel after creation
         panel.add(cost1);
         panel.add(cost2);
-        panel.setBackground(Color.white); //CHANGES COLOR
+        panel.setBackground(Color.BLACK); //CHANGES COLOR
         panel.setSize(400, 100);
 
         frame.add(panel);
@@ -189,7 +214,7 @@ public class GUI implements ActionListener {
         panel2.add(cost3);
         panel2.add(cost4);
         panel2.add(cost5);
-        panel2.setBackground(Color.white);
+        panel2.setBackground(Color.BLACK);
         panel2.setSize(400, 400);
         frame.add(panel2);
 
@@ -201,7 +226,7 @@ public class GUI implements ActionListener {
         panel3.add(cost6);
         panel3.add(cost7);
         panel3.add(cost8);
-        panel3.setBackground(Color.white);
+        panel3.setBackground(Color.BLACK);
         panel3.setSize(400, 400);
         frame.add(panel3);
 
@@ -213,7 +238,7 @@ public class GUI implements ActionListener {
         panel4.add(cost9);
         panel4.add(cost10);
         panel4.add(cost11);
-        panel4.setBackground(Color.white);
+        panel4.setBackground(Color.BLACK);
         panel4.setSize(400, 400);
         frame.add(panel4);
 
